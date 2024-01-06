@@ -168,3 +168,32 @@ nav h3{
     text-align: center;
     margin-top: 10px;
 }
+footer
+{
+  display: flex;  
+  justify-content: space-between;
+    margin-top: 100px;
+    gap:100px;
+    background-color: #FFF8F3;
+     padding: 10px 50px;
+} 
+.footer-column{
+    width: 50%;
+    
+}
+.contact input[type="text"],.contact input[type="email"] ,textarea{
+    margin-bottom: 25px;
+    display: block;
+    padding:18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border:0;
+    width: 100%;
+   
+
+}
+.soical-links a{
+    margin:24px;
+
+}
