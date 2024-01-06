@@ -78,8 +78,6 @@ nav h3{
   border-radius: 10px;
   background: #f3c5a3;
   margin: 130px 0px;
-
-  
 }
 .section-title
 {
@@ -91,4 +89,13 @@ nav h3{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-inf{
+    text-align: center;
 }
