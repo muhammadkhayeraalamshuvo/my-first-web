@@ -99,3 +99,13 @@ nav h3{
 .about-inf{
     text-align: center;
 }
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container
+{
+    display: flex;
+    margin-left:150px;
+    margin-right: 150px;
+    align-items: center;
+}
