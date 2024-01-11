@@ -75,6 +75,7 @@ nav h3{
     
 }
 /* main sections styles */
+/* about-section */
 .about
 {
   padding: 130px;
@@ -82,6 +83,8 @@ nav h3{
   background-color: #FFF8F3;
   margin: 130px 0px;
 }
+
+
 .section-title
 {
     text-align: center;
@@ -103,6 +106,8 @@ nav h3{
     text-align: center;
 }
 /* skills related styles */
+
+
 #what-i-do-description{
     padding: 30px 150px;
 }
@@ -128,6 +133,8 @@ nav h3{
 .skill-description{
  color:#757575
 }
+
+
 /* resume section styles*/
 .abcd{
 
@@ -201,3 +208,112 @@ footer
 {
     color: red;
 }
+
+/* responsive works */
+.hide
+{
+    display: none;
+}
+@media screen and (max-width:576px) {
+  .skill-container,.abcd
+  {
+    flex-direction: column;
+    margin-left:36px;
+    margin-right: 25px;
+  }
+  #what-i-do-description
+  {
+    padding: 0px;
+  }
+  .resume-section .section-title
+  {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 0px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+  }
+  .resume-section .download-cv
+  {
+    position: relative;
+    top: -60px;
+  }
+  footer
+  {
+    flex-direction: column-reverse;
+  }
+  .footer-column
+  {
+    width: 100%;
+    position: relative;
+    left: -30px;
+  }
+  .about{
+    padding: 20px;
+  }
+  .about-info-container
+  {
+    flex-direction: column;
+    
+  }
+  .info-title
+  {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .info-description
+  {
+    font-size: 18px;
+  }
+  .header
+  {
+    background-image: none;
+    background-color: bisque;
+    
+  }
+  .banner
+  {
+    color: black;
+    position: relative;
+    left: -53px;
+  }
+  nav{
+    flex-direction: column;
+    margin: 0px;
+    width:100%;
+    padding: 0px;
+  
+  
+  }
+  nav ul{
+   flex-wrap: wrap;
+   gap: 10px;
+    
+  }
+  nav ul li a
+  {
+    color: black;
+
+  }
+  .btn-primary{
+    background-color: rgb(245, 107, 57);
+    border-radius: 5px;
+    color: white;
+    /* border: 0; */
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+#nav-button
+{
+    padding: 5px;
+    width: 150%;
+    height: 50%;
+}
+
+
+    
+}
+
